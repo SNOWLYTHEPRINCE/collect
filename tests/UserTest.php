@@ -173,9 +173,4 @@ class UserTest extends TestCase
         $collect->pop();
         $this->assertNotEquals([1, 2, 3], $collect->toArray());
     }
-//    public function testGetNonExistingKey()
-//    {
-//        $collect = new Collect\Collect(['a' => 1, 'b' => 2]);
-//        $this->assertNull($collect->get('c'));
-//    }
 }
